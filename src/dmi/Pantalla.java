@@ -14,7 +14,7 @@ public class Pantalla extends JFrame{
 
 	int AngIni = -29;
 	int Ang = 238;
-	int div = 2/*1.025f*/;
+	int div = 1/*1.025f*/;
 	float v_pref = 0;
 	static float v_act = 0;
 	static int v_max = 160;
