@@ -125,7 +125,7 @@ public class Pantalla extends JFrame{
 	}
 	public static void main(String[] args) throws InterruptedException
 	{
-		String[] Conf = arc.ReadConfig("../Velocimetro_ORTS/config.txt");
+		String[] Conf = arc.ReadConfig("../SEPSA-Velocimetro/config.txt");
 		v_max = Integer.parseInt(Conf[0]);
 		Pantalla p = new Pantalla();
 		Client c = new Client();

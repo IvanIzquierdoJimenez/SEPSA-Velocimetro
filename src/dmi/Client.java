@@ -16,7 +16,7 @@ public class Client {
 	Archivo arc = new Archivo();
 	public Client()
 	{
-		String[] Conf = arc.ReadConfig("../Velocimetro_ORTS/config.txt");
+		String[] Conf = arc.ReadConfig("../SEPSA-Velocimetro/config.txt");
 		while(s==null)
 		{
 			try
